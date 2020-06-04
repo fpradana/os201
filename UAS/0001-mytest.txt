@@ -1,0 +1,40 @@
+Script started on Thu 04 Jun 2020 08:11:10 AM WIB
+
+PS1="$ "
+
+echo $GitHubUser
+
+echo $PSTAMP
+
+eval $PSTAMP
+
+PS1="\$(evalfauzan.pradana@badak:~$
+fauzan.pradana@badak:~$ PS1="$ "
+$
+$ echo $GitHubUser
+fpradana
+$
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$
+$ eval $PSTAMP
+200604-081110-1454-fauzan.pradana/>
+$
+$ PS1="\$(eval \$PSTAMP)"
+200604-081110-1454-fauzan.pradana/> date
+Thu Jun  4 08:11:36 WIB 2020
+200604-081136-7a3c-fauzan.pradana/> gpg2 --list-key
+/home/fasilkom/mahasiswa/f/fauzan.pradana/.gnupg/pubring.gpg
+------------------------------------------------------------
+pub   4096R/489C7B6B 2020-02-23 [expires: 2021-02-22]
+uid       [ultimate] Fauzan Pradana Linggih (membuat public key dana) <fpradanalinggih@gmail.com>
+sub   4096R/25DF3165 2020-02-23 [expires: 2021-02-22]
+
+pub   4096R/17A83EDD 2020-02-23 [expires: 2021-02-22]
+uid       [ultimate] Fauzan Pradana Linggih (membuat publik key Dana) <fpradanalinggih@gmail.com>
+sub   4096R/3DF97E34 2020-02-23 [expires: 2021-02-22]
+
+200604-081200-67f1-fauzan.pradana/> exit
+exit
+
+Script done on Thu 04 Jun 2020 08:12:11 AM WIB
