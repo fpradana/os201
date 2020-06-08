@@ -1,0 +1,28 @@
+Script started on Mon 08 Jun 2020 02:12:38 PM WIB
+PS1="$ "
+echo $GitHubUser
+echo $PSTAMPfauzan.pradana@badak:~$ PS1="$ "
+$ echo $GitHubUser
+fpradana
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ PS1="\$(eval \$PSTAMP)"
+200608-141238-b80e-fauzan.pradana/> ls -F
+0000-mypub.txt       0003-CEK-PAS0.txt  coba.txt  fork.c      NAMAFILE.txt   SHA1SUM           timestampuas
+0000-zuhpub.txt      0003-OSPUB.txt     Demos/    forklagi*   NAMAFILE.txt'  test_zuhdi        UAS-1.txt
+0001-mytest.txt      a.out*             exit      forklagi.c  nano.save      test_zuhdi_2      W03-log.txt
+0002-mytest.txt.asc  cobalagi.txt       fork*     namafile.c  nano.save.1    test_zuhdi_2.txt  W04-log.txt
+200608-141238-b80e-fauzan.pradana/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+200608-141238-b80e-fauzan.pradana/> sha1sum -c SHA1SUM
+rify SHA1SUM.asc 0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-141238-b80e-fauzan.pradana/> gpg2 -sb -a SHA1SUM
+200608-141238-b80e-fauzan.pradana/> gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon 08 Jun 2020 02:12:38 PM WIB using RSA key ID 489C7B6B
+gpg: Good signature from "Fauzan Pradana Linggih (membuat public key dana) <fpradanalinggih@gmail.com>" [ultimate]
+200608-141239-f057-fauzan.pradana/> exit
+exit
+
+Script done on Mon 08 Jun 2020 02:12:43 PM WIB
