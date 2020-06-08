@@ -11,6 +11,7 @@ Di sini saya akan melakukan intro sebagai jawaban dari beberapa pertanyaan UAS O
 * Bagaimana : Website ini menggunakan github themes dengan tema midnight.
 * Dimana : Website ini saya buat di rumah
 
+JOLAN YUK!
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 ## List
