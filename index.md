@@ -16,4 +16,4 @@ Di sini saya akan melakukan intro sebagai jawaban dari beberapa pertanyaan UAS O
 ## List
 _Website ini memiliki navigasi sebagai berikut:
 1. [**Home**](https://fpradana.github.io/os201/).
-2. [**url**](https://fpradana.github.io/os201/url).
+2. [**url**](https://fpradana.github.io/os201/URLs).
